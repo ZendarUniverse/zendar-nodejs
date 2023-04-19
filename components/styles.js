@@ -19,7 +19,10 @@ export const Colors = {
 
 const { black, primary, secondary, tertiary, darkLight, brand, green, red } = Colors;
 
-
+export const KeyboardAvoidingView = styled.View`
+    background-color: ${primary};
+    flex: 1;
+`;
 
 export const StyledContainer = styled.View`
     flex: 1;
